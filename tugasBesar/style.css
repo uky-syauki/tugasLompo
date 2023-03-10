@@ -7,6 +7,7 @@ nav {
     display: flex;
     justify-content: right;
     height: 40px;
+    margin-right: 80px;
 }
 
 nav ul {
@@ -16,31 +17,44 @@ nav ul {
     margin-right: 1.8%;
 }
 
-nav ul li{
+nav ul li {
     align-content: center;
     text-align: center;
     margin-right: 2%;
     margin-top: 22px;
-    background-color: rgb(255,255,0);
+    background-color: rgb(255, 255, 0);
     width: 150px;
     height: 29px;
-    padding-top:10px;
+    padding-top: 10px;
     border-radius: 2px;
     box-shadow: 1.4px 2.4px 5px -3px black;
 }
 
-aside{
+nav ul li a {
+    color: black;
+}
+
+nav ul li a:hover {
+    color: rgb(255, 255, 0);
+}
+
+nav ul li:hover {
+    background-color: #000;
+}
+
+aside {
     margin-top: 10px;
     margin-left: 90px;
     float: left;
     font-size: 21px;
 }
 
-aside h1{
+aside h1 {
     text-shadow: 2px 1px 4px black;
     margin-bottom: -11px;
 }
-aside sup{
+
+aside sup {
     text-shadow: 2px 1px 2px black;
     margin-top: -100px;
     margin-left: 40px;
@@ -49,7 +63,7 @@ aside sup{
 
 
 
-nav ul li a{
+nav ul li a {
     text-decoration: none;
     font-family: "time new roman"
 }
@@ -63,23 +77,25 @@ section h1 {
     margin-top: 10px;
 }
 
-.judul{
+.judul {
     text-align: center;
     text-decoration: underline;
 }
-table{
+
+table {
     display: flex;
     justify-content: center;
     text-align: center;
 }
-img{
+
+img {
     box-shadow: 2px 3px 5px grey;
     align-items: center;
     width: 190px;
     height: 260px;
 }
 
-.boximg{
+.boximg {
     margin: 10px;
     box-shadow: 1px 1px 3px black;
     padding: 15px;
